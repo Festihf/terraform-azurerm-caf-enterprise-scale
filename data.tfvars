@@ -33,7 +33,7 @@ configure_management_resources = {
     security_center = {
       enabled = true
       config = {
-        email_security_contact = "" #Fylla út
+        email_security_contact = "otti@festi.is" 
       }
     }
   }
@@ -96,7 +96,7 @@ destroy_duration_delay = {
 
 # Custom policies and telemetry options
 custom_policy_roles = {}
-disable_telemetry = false #Fylla út
+disable_telemetry = false 
 strict_subscription_association = false
 
 # Policy non-compliance message settings
