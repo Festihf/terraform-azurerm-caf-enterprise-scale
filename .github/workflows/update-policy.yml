@@ -3,14 +3,7 @@ name: Update Library Templates
 
 # yamllint disable-line rule:truthy
 on:
-  schedule:
-    - cron: "0 8 * * 1-5"
   workflow_dispatch:
-    inputs:
-      enterprise-scale-repository-branch:
-        description: "The branch to target for the enterprise scale repository"
-        required: false
-        default: "main"
 
 env:
   remote_repository: "Azure/Enterprise-Scale"

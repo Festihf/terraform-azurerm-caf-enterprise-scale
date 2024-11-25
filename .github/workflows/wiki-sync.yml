@@ -6,9 +6,7 @@ permissions:
 
 # yamllint disable-line rule:truthy
 on:
-  release:
-    types: [published]
-  workflow_dispatch: {}
+  workflow_dispatch:
 
 env:
   wiki_source_repo: "${{ github.repository }}"

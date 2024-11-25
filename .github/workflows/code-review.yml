@@ -7,10 +7,7 @@ name: Code Review
 
 # yamllint disable-line rule:truthy
 on:
-  pull_request:
-    branches:
-      - main
-  workflow_dispatch: {}
+  workflow_dispatch:
 
 permissions:
   contents: read
