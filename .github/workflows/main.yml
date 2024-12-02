@@ -38,5 +38,5 @@
         - name: Terraform init
           run: terraform init -backend-config="subscription_id=8d9d28aa-56ff-4d4c-ab85-a94198d8ad0e" -backend-config="resource_group_name=rg-infra-prod-001" -backend-config="storage_account_name=terraformstoragefesti" -backend-config="container_name=statefiles" -backend-config="key=CAF/terraform.tfstate"
         - name: Terraform plan
-          run: terraform plan -refresh-only --var-file="data.tfvars" 
+          run: terraform plan --var-file="data.tfvars" 
   
