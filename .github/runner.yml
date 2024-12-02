@@ -42,7 +42,5 @@ jobs:
           -backend-config="storage_account_name=terraformstoragefesti" \
           -backend-config="container_name=statefiles" \
           -backend-config="key=CAF/terraform.tfstate"
-        working-directory: ./environments/temp
       - name: Terraform plan
         run: terraform plan --var-file="data.tfvars" 
-        working-directory: ./environments/temp
