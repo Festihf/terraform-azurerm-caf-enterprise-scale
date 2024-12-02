@@ -68,9 +68,9 @@ configure_connectivity_resources = {
 subscription_id_overrides = {}
 
 # Default subscription IDs (use your own values)
-subscription_id_connectivity = ""
-subscription_id_identity = ""
-subscription_id_management = ""
+subscription_id_connectivity = "b6800247-500d-4ec8-a1e2-bf1072655cea"
+subscription_id_identity = "b7d78234-672c-484a-bcfd-51ddb90725d8"
+subscription_id_management = "e482f469-34dd-4703-a06b-52f11f5193e9"
 
 # Define custom landing zones (optional)
 custom_landing_zones = {}
