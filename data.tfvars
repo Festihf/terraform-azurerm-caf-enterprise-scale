@@ -2,10 +2,10 @@
 root_parent_id = "cd368b54-6ffe-4d7d-bea9-014e728c6679"
 
 # Define the custom root management group ID
-root_id = "festi"  # Default is "es", customize if needed
+root_id = "festi-caf"  # Default is "es", customize if needed
 
 # Define the root management group display name
-root_name = "festi"  # Default is "Enterprise-Scale", customize if needed
+root_name = "festi-caf"  # Default is "Enterprise-Scale", customize if needed
 
 # Define which landing zones to deploy (true/false)
 deploy_core_landing_zones = true
