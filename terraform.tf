@@ -23,4 +23,12 @@ terraform {
     }
   }
   required_version = "~> 1.7"
+  backend "azurerm" {
+  subscription_id      = "8d9d28aa-56ff-4d4c-ab85-a94198d8ad0e"
+  resource_group_name  = "rg-infra-prod-001"
+  storage_account_name = "terraformstoragefesti"
+  container_name       = "statefiles"
+  key                  = "CAF/terraform.tfstate"
+  
+}
 }
